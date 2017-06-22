@@ -109,7 +109,7 @@ def parse_args(argv):
        sys.exit(2)
 
 def help_string():
-    return "scrape-missing.py -i <inputfile> -o <outputfie> -r <rompath> -m <imagepath> -p <platform>"
+    return "scrape-missing.py -i <inputfile> -o <outputfile> -r <rompath> -m <imagepath> -p <platform>"
 
 def select_action(rom):
     error_occured = False
